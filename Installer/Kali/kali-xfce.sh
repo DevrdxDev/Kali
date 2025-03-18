@@ -31,7 +31,7 @@ if [ "$first" != 1 ];then
 		if [ $archurl == "arm64" ]; then
 			wget "https://github.com/DevrdxDev/Kali/releases/download/V1.0/kali-rootfs-arm64.tar.xz" -O $tarball
 		else
-			wget "https://github.com/Techriz/AndronixOrigin/blob/master/Rootfs/Kali/${archurl}/kali-rootfs-${archurl}.tar.xz?raw=true" -O $tarball
+			wget "https://github.com/DevrdxDev/Kali/releases/tag/V1.0/${archurl}/kali-rootfs-${archurl}.tar.xz?raw=true" -O $tarball
 		fi
 	fi
 	cur=`pwd`
